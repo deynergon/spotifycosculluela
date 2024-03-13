@@ -1,0 +1,87 @@
+.banner {
+    background-image: url("https://www.telemundo.com/sites/nbcutelemundo/files/styles/fit-760w/public/sites/nbcutelemundo/files/images/article/2010/01/08/cosculluela_4.jpg?ramen_itok=iqwQftIcTf");
+    padding: 25%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+.fondoboton {
+    background-color: aqua;
+}
+
+.imagenes {
+    display: flex;
+}
+
+.imagen1 {
+    width: 50%;
+    height: 40vh;
+}
+
+.imagen2 {
+    width: 50%;
+    height: 40vh;
+}
+
+.imagen3 {
+    width: 50%;
+    height: 40vh;
+}
+
+.imagen4 {
+    width: 50%;
+    height: 40vh;
+}
+
+.imagen5 {
+    width: 50%;
+    height: 40vh;
+}
+
+
+.imagen6 {
+    width: 50%;
+    height: 40vh;
+}
+
+
+.imagen7 {
+    width: 50%;
+    height: 40vh;
+}
+
+
+.imagen8 {
+    width: 50%;
+    height: 40vh;
+}
+
+
+.imagen9 {
+    width: 50%;
+    height: 40vh;
+}
+
+
+
+.imagen10 {
+    width: 50%;
+    height: 40vh;
+}
+
